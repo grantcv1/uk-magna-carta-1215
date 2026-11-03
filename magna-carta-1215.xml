@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="magna-carta-1215.css"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" version="3.1">
+  <act name="charter" contains="originalVersion">
+    <meta>
+      <identification source="#gvergottini">
+        <FRBRWork>
+          <FRBRthis value="/akn/gb-eng/act/1215-06-15/magna-carta/!main"/>
+          <FRBRuri value="/akn/gb-eng/act/1215-06-15/magna-carta"/>
+          <FRBRalias value="Magna Carta" name="short"/>
+          <FRBRdate date="1215-06-15" name="grant"/>
+          <FRBRauthor href="#kingJohn" as="#author"/>
+          <FRBRcountry value="gb-eng"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/gb-eng/act/1215-06-15/magna-carta/lat@1215-06-15/!main"/>
+          <FRBRuri value="/akn/gb-eng/act/1215-06-15/magna-carta/lat@1215-06-15"/>
+          <FRBRdate date="1215-06-15" name="grant"/>
+          <FRBRauthor href="#kingJohn" as="#author"/>
+          <FRBRlanguage language="lat"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/gb-eng/act/1215-06-15/magna-carta/lat@1215-06-15/!main.xml"/>
+          <FRBRuri value="/akn/gb-eng/act/1215-06-15/magna-carta/lat@1215-06-15.xml"/>
+          <FRBRdate date="2026-11-02" name="markup"/>
+          <FRBRauthor href="#gvergottini" as="#editor"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#gvergottini">
+        <TLCPerson eId="kingJohn" href="/ontology/person/gb.kingJohn" showAs="John, King of England"/>
+        <TLCPerson eId="gvergottini" href="/ontology/person/us.grantVergottini" showAs="Grant Vergottini"/>
+        <TLCRole eId="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCRole eId="editor" href="/ontology/role/editor" showAs="Editor"/>
+        <TLCLocation eId="loc_runnymede" href="/ontology/location/gb.runnymede" showAs="Runnymede"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="charterTitle"><docTitle>Magna Carta</docTitle> <docDate date="1215-06-15">1215</docDate></p>
+    </preface>
+    <preamble>
+      <container name="address" eId="address" GUID="8FF880DB-65B4-4F40-B144-898179C02446">
+        <p>Johannes Dei gratia rex Anglie, dominus Hibernie, dux Normannie et Aquitannie, et comes Andegavie, archiepiscopis, episcopis, abbatibus, comitibus, baronibus, justiciariis, forestariis, vicecomitibus, prepositis, ministris et omnibus ballivis et fidelibus suis salutem.</p>
+      </container>
+      <container name="grant" eId="grant" GUID="E0869D27-69D7-4A99-967A-92B9F27DBACF">
+        <p>Sciatis nos intuitu Dei et pro salute anime nostre et omnium antecessorum et heredum nostrorum, ad honorem Dei et exaltationem sancte Ecclesie, et emendacionem regni nostri, per consilium venerabilium patrum nostrorum, Stephani Cantuariensis archiepiscopi tocius Anglie primatis et sancte Romane ecclesie cardinalis, Henrici Dublinensis archiepiscopi, Willelmi Londoniensis, Petri Wintoniensis, Joscelini Bathoniensis et Glastoniensis, Hugonis Lincolniensis, Walteri Wygorniensis, Willelmi Coventriensis, et Benedicti Roffensis episcoporum; magistri Pandulfi domini pape subdiaconi et familiaris, fratris Aymerici magistri milicie Templi in Anglia; et nobilium virorum Willelmi Mariscalli comitis Penbrocie, Willelmi comitis Sarresburie, Willelmi comitis Warennie, Willelmi comitis Arundellie, Alani de Galeweya constabularii Scocie, Warini filii Geroldi, Petri filii Hereberti, Huberti de Burgo senescalli Pictavie, Hugonis de Nevilla, Mathei filii Hereberti, Thome Basset, Alani Basset, Philippi de Albiniaco, Roberti de Roppeleia, Johannis Mariscalli, Johannis filii Hugonis et aliorum fidelium nostrorum.</p>
+      </container>
+    </preamble>
+    <body>
+      <clause eId="cl_1" GUID="50BAA93F-7514-4A42-B45A-26E14259E699">
+        <num>1.</num>
+        <content>
+          <p>In primis concessisse Deo et hac presenti carta nostra confirmasse, pro nobis et heredibus nostris in perpetuum, quod Anglicana ecclesia libera sit, et habeat jura sua integra, et libertates suas illesas; et ita volumus observari; quod apparet ex eo quod libertatem electionum, que maxima et magis necessaria reputatur ecclesie Anglicane, mera et spontanea voluntate, ante discordiam inter nos et barones nostros motam, concessimus et carta nostra confirmavimus, et eam obtinuimus a domino papa Innocencio tercio confirmari; quam et nos observabimus et ab heredibus nostris in perpetuum bona fide volumus observari. Concessimus eciam omnibus liberis hominibus regni nostri, pro nobis et heredibus nostris in perpetuum, omnes libertates subscriptas, habendas et tenendas eis et heredibus suis, de nobis et heredibus nostris.</p>
+        </content>
+      </clause>
+      <clause eId="cl_2" GUID="17E4DA69-0499-43A9-8FCE-D143AF163A87">
+        <num>2.</num>
+        <content>
+          <p>Si quis comitum vel baronum nostrorum, sive aliorum tenencium de nobis in capite per servicium militare, mortuus fuerit, et cum decesserit heres suus plene etatis fuerit et relevium debeat, habeat hereditatem suam per antiquum relevium; scilicet heres vel heredes comitis de baronia comitis integra per centum libras; heres vel heredes baronis de baronia integra per centum libras; heres vel heredes militis de feodo militis integro per centum solidos ad plus; et qui minus debuerit minus det secundum antiquam consuetudinem feodorum.</p>
+        </content>
+      </clause>
+      <clause eId="cl_3" GUID="AB72D88B-BC48-459C-BB24-EF217FEA2963">
+        <num>3.</num>
+        <content>
+          <p>Si autem heres alicujus talium fuerit infra etatem et fuerit in custodia, cum ad etatem pervenerit, habeat hereditatem suam sine relevio et sine fine.</p>
+        </content>
+      </clause>
+      <clause eId="cl_4" GUID="05FA5E61-DF73-47F3-9321-ADBC14E7010A">
+        <num>4.</num>
+        <content>
+          <p>Custos terre hujusmodi heredis qui infra etatem fuerit, non capiat de terra heredis nisi racionabiles exitus, et racionabiles consuetudines, et racionabilia servicia, et hoc sine destructione et vasto hominum vel rerum; et si nos commiserimus custodiam alicujus talis terre vicecomiti vel alicui alii qui de exitibus illius nobis respondere debeat, et ille destructionem de custodia fecerit vel vastum, nos ab illo capiemus emendam, et terra committatur duobus legalibus et discretis hominibus de feodo illo, qui de exitibus respondeant nobis vel ei cui eos assignaverimus; et si dederimus vel vendiderimus alicui custodiam alicujus talis terre, et ille destructionem inde fecerit vel vastum, amittat ipsam custodiam, et tradatur duobus legalibus et discretis hominibus de feodo illo qui similiter nobis respondeant sicut predictum est.</p>
+        </content>
+      </clause>
+      <clause eId="cl_5" GUID="0410B853-1DEE-4F24-8415-7C58EDE4A0C6">
+        <num>5.</num>
+        <content>
+          <p>Custos autem, quamdiu custodiam terre habuerit, sustentet domos, parcos, vivaria, stagna, molendina, et cetera ad terram illam pertinencia, de exitibus terre ejusdem; et reddat heredi, cum ad plenam etatem pervenerit, terram suam totam instauratam de carrucis et waynagiis, secundum quod tempus waynagii exiget et exitus terre racionabiliter poterunt sustinere.</p>
+        </content>
+      </clause>
+      <clause eId="cl_6" GUID="6268CC97-0719-4623-B0C5-A3BE929DFEFA">
+        <num>6.</num>
+        <content>
+          <p>Heredes maritentur absque disparagacione, ita tamen quod, antequam contrahatur matrimonium, ostendatur propinquis de consanguinitate ipsius heredis.</p>
+        </content>
+      </clause>
+      <clause eId="cl_7" GUID="6D63E41C-614E-4096-BEB9-1DEA4842D1CB">
+        <num>7.</num>
+        <content>
+          <p>Vidua post mortem mariti sui statim et sine difficultate habeat maritagium et hereditatem suam, nec aliquid det pro dote sua, vel pro maritagio suo, vel hereditate sua quam hereditatem maritus suus et ipsa tenuerint die obitus ipsius mariti, et maneat in domo mariti sui per quadraginta dies post mortem ipsius, infra quos assignetur ei dos sua.</p>
+        </content>
+      </clause>
+      <clause eId="cl_8" GUID="809297D7-0F08-4D93-8F6B-4D8402B7ECED">
+        <num>8.</num>
+        <content>
+          <p>Nulla vidua distringatur ad se maritandum dum voluerit vivere sine marito; ita tamen quod securitatem faciat quod se non maritabit sine assensu nostro, si de nobis tenuerit, vel sine assensu domini sui de quo tenuerit, si de alio tenuerit.</p>
+        </content>
+      </clause>
+      <clause eId="cl_9" GUID="1153FACA-6833-4B4C-B434-C7B0FAAD81E5">
+        <num>9.</num>
+        <content>
+          <p>Nec nos nec ballivi nostri seisiemus terram aliquam nec redditum pro debito aliquo, quamdiu catalla debitoris sufficiunt ad debitum reddendum; nec plegii ipsius debitoris distringantur quamdiu ipse capitalis debitor sufficit ad solucionem debiti; et si capitalis debitor defecerit in solucione debiti, non habens unde solvat, plegii respondeant de debito; et, si voluerint, habeant terras et redditus debitoris, donec sit eis satisfactum de debito quod ante pro eo solverint, nisi capitalis debitor monstraverit se esse quietum inde versus eosdem plegios.</p>
+        </content>
+      </clause>
+      <clause eId="cl_10" GUID="28C49919-33AD-4056-8C6A-3134AAF25F8B">
+        <num>10.</num>
+        <content>
+          <p>Si quis mutuo ceperit aliquid a Judeis, plus vel minus, et moriatur antequam illud solvatur, debitum non usuret quamdiu heres fuerit infra etatem, de quocumque teneat; et si debitum illud inciderit in manus nostras, nos non capiemus nisi catallum contentum in carta.</p>
+        </content>
+      </clause>
+      <clause eId="cl_11" GUID="41084DC7-CDB9-4A14-AAC7-7885504C077C">
+        <num>11.</num>
+        <content>
+          <p>Et si quis moriatur, et debitum debeat Judeis, uxor ejus habeat dotem suam, et nichil reddat de debito illo; et si liberi ipsius defuncti qui fuerint infra etatem remanserint, provideantur eis necessaria secundum tenementum quod fuerit defuncti, et de residuo solvatur debitum, salvo servicio dominorum; simili modo fiat de debitis que debentur aliis quam Judeis.</p>
+        </content>
+      </clause>
+      <clause eId="cl_12" GUID="411D9D51-D0C4-434F-9D2F-597CBC83C90B">
+        <num>12.</num>
+        <content>
+          <p>Nullum scutagium vel auxilium ponatur in regno nostro, nisi per commune consilium regni nostri, nisi ad corpus nostrum redimendum, et primogenitum filium nostrum militem faciendum, et ad filiam nostram primogenitam semel maritandam, et ad hec non fiat nisi racionabile auxilium: simili modo fiat de auxiliis de civitate Londonie.</p>
+        </content>
+      </clause>
+      <clause eId="cl_13" GUID="33D754FE-C48C-4BF1-A19F-89AD861C87FE">
+        <num>13.</num>
+        <content>
+          <p>Et civitas Londonie habeat omnes antiquas libertates et liberas consuetudines suas, tam per terras, quam per aquas. Preterea volumus et concedimus quod omnes alie civitates, et burgi, et ville, et portus, habeant omnes libertates et liberas consuetudines suas.</p>
+        </content>
+      </clause>
+      <clause eId="cl_14" GUID="F46333E6-955F-4762-903B-D4CD8A597302">
+        <num>14.</num>
+        <content>
+          <p>Et ad habendum commune consilium regni, de auxilio assidendo aliter quam in tribus casibus predictis, vel de scutagio assidendo, summoneri faciemus archiepiscopos, episcopos, abbates, comites, et majores barones, sigillatim per litteras nostras; et preterea faciemus summoneri in generali, per vicecomites et ballivos nostros, omnes illos qui de nobis tenent in capite; ad certum diem, scilicet ad terminum quadraginta dierum ad minus, et ad certum locum; et in omnibus litteris illius summonicionis causam summonicionis exprimemus; et sic facta summonicione negocium ad diem assignatum procedat secundum consilium illorum qui presentes fuerint, quamvis non omnes summoniti venerint.</p>
+        </content>
+      </clause>
+      <clause eId="cl_15" GUID="59A45411-2F70-481C-99AC-9ABAF1D0AF51">
+        <num>15.</num>
+        <content>
+          <p>Nos non concedemus de cetero alicui quod capiat auxilium de liberis hominibus suis, nisi ad corpus suum redimendum, et ad faciendum primogenitum filium suum militem, et ad primogenitam filiam suam semel maritandam, et ad hec non fiat nisi racionabile auxilium.</p>
+        </content>
+      </clause>
+      <clause eId="cl_16" GUID="6EE40C14-3E31-41AF-A144-B008CFB3C7C7">
+        <num>16.</num>
+        <content>
+          <p>Nullus distringatur ad faciendum majus servicium de feodo militis, nec de alio libero tenemento, quam inde debetur.</p>
+        </content>
+      </clause>
+      <clause eId="cl_17" GUID="561D89C7-2142-445E-88BD-2323DF503FCB">
+        <num>17.</num>
+        <content>
+          <p>Communia placita non sequantur curiam nostram sed teneantur in aliquo loco certo.</p>
+        </content>
+      </clause>
+      <clause eId="cl_18" GUID="4085466E-9366-4D40-9818-A75D1FC18969">
+        <num>18.</num>
+        <content>
+          <p>Recogniciones de nova dissaisina, de morte antecessoris, et de ultima presentacione, non capiantur nisi in suis comitatibus et hoc modo; nos, vel si extra regnum fuerimus, capitalis justiciarius noster, mittemus duos justiciarios per unumquemque comitatum per quatuor vices in anno, qui, cum quatuor militibus cujuslibet comitatus electis per comitatum, capiant in comitatu et in die et loco comitatus assisas predictas.</p>
+        </content>
+      </clause>
+      <clause eId="cl_19" GUID="90574A23-526B-48FE-94DF-ADDD7DC8A19B">
+        <num>19.</num>
+        <content>
+          <p>Et si in die comitatus assise predicte capi non possint, tot milites et libere tenentes remaneant de illis qui interfuerint comitatui die illo, per quos possint judicia sufficienter fieri, secundum quod negocium fuerit majus vel minus.</p>
+        </content>
+      </clause>
+      <clause eId="cl_20" GUID="24A49455-9508-4299-92E2-A19FF267AB95">
+        <num>20.</num>
+        <content>
+          <p>Liber homo non amercietur pro parvo delicto, nisi secundum modum delicti; et pro magno delicto amercietur secundum magnitudinem delicti, salvo contenemento suo; et mercator eodem modo, salva mercandisa sua; et villanus eodem modo amercietur salvo waynagio suo, si inciderint in misericordiam nostram; et nulla predictarum misericordiarum ponatur, nisi per sacramentum proborum hominum de visneto.</p>
+        </content>
+      </clause>
+      <clause eId="cl_21" GUID="73E7AC96-8EF5-47F8-BF0D-EF64B1B6D82E">
+        <num>21.</num>
+        <content>
+          <p>Comites et barones non amercientur nisi per pares suos, et non nisi secundum modum delicti.</p>
+        </content>
+      </clause>
+      <clause eId="cl_22" GUID="E48DFA53-80B3-4289-9D25-5D8CB91F223A">
+        <num>22.</num>
+        <content>
+          <p>Nullus clericus amercietur de laico tenemento suo, nisi secundum modum aliorum predictorum, et non secundum quantitatem beneficii sui ecclesiastici.</p>
+        </content>
+      </clause>
+      <clause eId="cl_23" GUID="C5495577-D4C3-4FF0-8FF5-5BD520082898">
+        <num>23.</num>
+        <content>
+          <p>Nec villa nec homo distringatur facere pontes ad riparias, nisi qui ab antiquo et de jure facere debent.</p>
+        </content>
+      </clause>
+      <clause eId="cl_24" GUID="62A6E8FC-03F8-4FB4-8593-F7AE215D4015">
+        <num>24.</num>
+        <content>
+          <p>Nullus vicecomes, constabularius, coronatores, vel alii ballivi nostri, teneant placita corone nostre.</p>
+        </content>
+      </clause>
+      <clause eId="cl_25" GUID="50DB5A84-0610-41D0-AFD7-7827422440BA">
+        <num>25.</num>
+        <content>
+          <p>Omnes comitatus, hundrede, wapentakii, et trethingic, sint ad antiquas firmas absque ullo incremento, exceptis dominicis maneriis nostris.</p>
+        </content>
+      </clause>
+      <clause eId="cl_26" GUID="D18830F4-E78D-402D-8826-546CB144D163">
+        <num>26.</num>
+        <content>
+          <p>Si aliquis tenens de nobis laicum feodum moriatur, et vicecomes vel ballivus noster ostendat litteras nostras patentes de summonicione nostra de debito quod defunctus nobis debuit, liceat vicecomiti vel ballivo nostro attachiare et inbreviare catalla defuncti, inventa in laico feodo, ad valenciam illius debiti, per visum legalium hominum, ita tamen quod nichil inde amoveatur, donec persolvatur nobis debitum quod clarum fuerit; et residuum relinquatur executoribus ad faciendum testamentum defuncti; et, si nichil nobis debeatur ab ipso, omnia catalla cedant defuncto, salvis uxori ipsius et pueris racionabilibus partibus suis.</p>
+        </content>
+      </clause>
+      <clause eId="cl_27" GUID="4CC60BBD-8D9D-4475-A6E5-7E26F7364468">
+        <num>27.</num>
+        <content>
+          <p>Si aliquis liber homo intestatus decesserit, catalla sua per manus propinquorum parentum et amicorum suorum, per visum ecclesie distribuantur, salvis unicuique debitis que defunctus ei debebat.</p>
+        </content>
+      </clause>
+      <clause eId="cl_28" GUID="3A560AEB-5D20-4E40-899E-B4E4BF1E6EB1">
+        <num>28.</num>
+        <content>
+          <p>Nullus constabularius, vel alius ballivus noster, capiat blada vel alia catalla alicujus, nisi statim inde reddat denarios, aut respectum inde habere possit de voluntate venditoris.</p>
+        </content>
+      </clause>
+      <clause eId="cl_29" GUID="65C37ADE-7891-4209-BBB4-88837D0DA80E">
+        <num>29.</num>
+        <content>
+          <p>Nullus constabularius distringat aliquem militem ad dandum denarios pro custodia castri, si facere voluerit custodiam illam in propria persona sua, vel per alium probum hominem, si ipse eam facere non possit propter racionabilem causam; et si nos duxerimus vel miserimus eum in exercitum, erit quietus de custodia, secundum quantitatem temporis quo per nos fuerit in exercitu.</p>
+        </content>
+      </clause>
+      <clause eId="cl_30" GUID="4F4D8F88-781B-47A4-95D3-56C8746E0424">
+        <num>30.</num>
+        <content>
+          <p>Nullus vicecomes, vel ballivus noster, vel aliquis alius, capiat equos vel carectas alicujus liberi hominis pro cariagio faciendo, nisi de voluntate ipsius liberi hominis.</p>
+        </content>
+      </clause>
+      <clause eId="cl_31" GUID="C20382AA-CF5C-440E-A1ED-ED7BAEF54046">
+        <num>31.</num>
+        <content>
+          <p>Nec nos nec ballivi nostri capiemus alienum boscum ad castra, vel alia agenda nostra, nisi per voluntatem ipsius cujus boscus ille fuerit.</p>
+        </content>
+      </clause>
+      <clause eId="cl_32" GUID="E18D8CDA-FE74-4C96-A8C2-EBCE1E6751FE">
+        <num>32.</num>
+        <content>
+          <p>Nos non tenebimus terras illorum qui convicti fuerint de felonia, nisi per unum annum et unum diem, et tunc reddantur terre dominis feodorum.</p>
+        </content>
+      </clause>
+      <clause eId="cl_33" GUID="BC28CF56-CE85-4AFD-9780-E391F9C0641A">
+        <num>33.</num>
+        <content>
+          <p>Omnes kydelli de cetero deponantur penitus de Tamisia, et de Medewaye, et per totam Angliam, nisi per costeram maris.</p>
+        </content>
+      </clause>
+      <clause eId="cl_34" GUID="1DCEDD55-7C15-4F51-815E-9E3B75741E31">
+        <num>34.</num>
+        <content>
+          <p>Breve quod vocatur Precipe de cetero non fiat alicui de aliquo tenemento unde liber homo amittere possit curiam suam.</p>
+        </content>
+      </clause>
+      <clause eId="cl_35" GUID="CA2B2C9B-9EB3-420E-B873-F08AA7C4B327">
+        <num>35.</num>
+        <content>
+          <p>Una mensura vini sit per totum regnum nostrum, et una mensura cervisie, et una mensura bladi, scilicet quarterium Londonie, et una latitudo pannorum tinctorum et russetorum et halbergectorum, scilicet due ulne infra listas; de ponderibus autem sit ut de mensuris.</p>
+        </content>
+      </clause>
+      <clause eId="cl_36" GUID="69AD8143-07E7-470B-9A7B-9DFD325661C3">
+        <num>36.</num>
+        <content>
+          <p>Nichil detur vel capiatur de cetero pro brevi inquisicionis de vita vel membris, sed gratis concedatur et non negetur.</p>
+        </content>
+      </clause>
+      <clause eId="cl_37" GUID="DB19F363-7A1C-4489-AD4D-4429F954A890">
+        <num>37.</num>
+        <content>
+          <p>Si aliquis teneat de nobis per feodifirmam, vel per sokagium, vel per burgagium, et de alio terram teneat per servicium militare, nos non habebimus custodiam heredis nec terre sue que est de feodo alterius, occasione illius feodifirme, vel sokagii, vel burgagii; nec habebimus custodiam illius feodifirme, vel sokagii, vel burgagii, nisi ipsa feodifirma debeat servicium militare. Nos non habebimus custodiam heredis vel terre alicujus, quam tenet de alio per servicium militare, occasione alicujus parve serjanterie quam tenet de nobis per servicium reddendi nobis cultellos, vel sagittas, vel hujusmodi.</p>
+        </content>
+      </clause>
+      <clause eId="cl_38" GUID="25FC7DFD-87C7-4B1F-A3F7-3B34BBF6238F">
+        <num>38.</num>
+        <content>
+          <p>Nullus ballivus ponat de cetero aliquem ad legem simplici loquela sua, sine testibus fidelibus ad hoc inductis.</p>
+        </content>
+      </clause>
+      <clause eId="cl_39" GUID="6B8E5BD1-A85C-4937-BFF7-426DB16E27FA">
+        <num>39.</num>
+        <content>
+          <p>Nullus liber homo capiatur, vel imprisonetur, aut disseisiatur, aut utlagetur, aut exuletur, aut aliquo modo destruatur, nec super eum ibimus, nec super eum mittemus, nisi per legale judicium parium suorum vel per legem terre.</p>
+        </content>
+      </clause>
+      <clause eId="cl_40" GUID="871C7893-BDA1-4E78-B304-9A8B2870A2C1">
+        <num>40.</num>
+        <content>
+          <p>Nulli vendemus, nulli negabimus, aut differemus, rectum aut justiciam.</p>
+        </content>
+      </clause>
+      <clause eId="cl_41" GUID="D703133C-F0AD-4963-ADA1-E4E3C46C3832">
+        <num>41.</num>
+        <content>
+          <p>Omnes mercatores habeant salvum et securum exire de Anglia, et venire in Angliam, et morari et ire per Angliam, tam per terram quam per aquam, ad emendum et vendendum, sine omnibus malis toltis, per antiquas et rectas consuetudines, preterquam in tempore gwerre, et si sint de terra contra nos gwerrina; et si tales inveniantur in terra nostra in principio gwerre, attachientur sine dampno corporum et rerum, donec sciatur a nobis vel capitali justiciario nostro quomodo mercatores terre nostre tractentur, qui tunc invenientur in terra contra nos gwerrina; et si nostri salvi sint ibi, alii salvi sint in terra nostra.</p>
+        </content>
+      </clause>
+      <clause eId="cl_42" GUID="C45C206A-BAFD-461B-A802-4AF82FD1C406">
+        <num>42.</num>
+        <content>
+          <p>Liceat unicuique de cetero exire de regno nostro, et redire, salvo et secure, per terram et per aquam, salva fide nostra, nisi tempore gwerre per aliquod breve tempus, propter communem utilitatem regni, exceptis imprisonatis et utlagatis secundum legem regni, et gente de terra contra nos gwerrina, et mercatoribus de quibus fiat sicut predictum est.</p>
+        </content>
+      </clause>
+      <clause eId="cl_43" GUID="722328FA-8D80-490D-A518-B85F8DCC1DCA">
+        <num>43.</num>
+        <content>
+          <p>Si quis tenuerit de aliqua eskaeta, sicut de honore Wallingfordie, Notingeham, Bolonie, Lancastrie vel de aliis eskaetis, que sunt in manu nostra, et sunt baronie, et obierit, heres ejus non det aliud relevium, nec faciat nobis aliud servicium quam faceret baroni si baronia illa esset in manu baronis; et nos eodem modo eam tenebimus quo baro eam tenuit.</p>
+        </content>
+      </clause>
+      <clause eId="cl_44" GUID="B6C3C780-AA15-4A7E-B576-10F17F68FE21">
+        <num>44.</num>
+        <content>
+          <p>Homines qui manent extra forestam non veniant de cetero coram justiciariis nostris de foresta per communes summoniciones, nisi sint in placito, vel plegii alicujus vel aliquorum, qui attachiati sint pro foresta.</p>
+        </content>
+      </clause>
+      <clause eId="cl_45" GUID="6E653DC8-18FD-4720-A80F-8134D3458116">
+        <num>45.</num>
+        <content>
+          <p>Nos non faciemus justiciarios, constabularios, vicecomites vel ballivos, nisi de talibus qui sciant legem regni et eam bene velint observare.</p>
+        </content>
+      </clause>
+      <clause eId="cl_46" GUID="28AE589B-5275-410A-BD68-472B389FB61F">
+        <num>46.</num>
+        <content>
+          <p>Omnes barones qui fundaverunt abbatias, unde habent cartas regum Anglie, vel antiquam tenuram, habeant earum custodiam cum vacaverint, sicut habere debent.</p>
+        </content>
+      </clause>
+      <clause eId="cl_47" GUID="9145C58B-5CA8-45FF-9E4D-B5C00674A3CA">
+        <num>47.</num>
+        <content>
+          <p>Omnes foreste que afforestate sunt tempore nostro, statim deafforestentur; et ita fiat de ripariis que per nos tempore nostro posite sunt in defenso.</p>
+        </content>
+      </clause>
+      <clause eId="cl_48" GUID="6F67FE98-1587-40A9-8070-F3FF09173206">
+        <num>48.</num>
+        <content>
+          <p>Omnes male consuetudines de forestis et warennis, et de forestariis et warennariis, vicecomitibus et eorum ministris, ripariis et earum custodibus, statim inquirantur in quolibet comitatu per duodecim milites juratos de eodem comitatu, qui debent eligi per probos homines ejusdem comitatus, et infra quadraginta dies post inquisicionem factam, penitus, ita quod numquam revocentur, deleantur per eosdem, ita quod nos hoc sciamus prius, vel justiciarius noster, si in Anglia non fuerimus.</p>
+        </content>
+      </clause>
+      <clause eId="cl_49" GUID="60B6EC1E-1FD4-472D-892A-A9D0F55B11EC">
+        <num>49.</num>
+        <content>
+          <p>Omnes obsides et cartas statim reddemus que liberate fuerunt nobis ab Anglicis in securitatem pacis vel fidelis servicii.</p>
+        </content>
+      </clause>
+      <clause eId="cl_50" GUID="BD1FE284-1057-4B47-A2D5-34A09D510EF3">
+        <num>50.</num>
+        <content>
+          <p>Nos amovebimus penitus de balliis parentes Gerardi de Athyes, quod de cetero nullam habeant balliam in Anglia; Engelardum de Cygony, Petrum et Gionem et Andream, de Cancellis, Gionem de Cygony, Galfridum de Martinny et fratres ejus, Philippum Marci et fratres ejus, et Galfridum nepotem ejus, et totam sequelam eorundem.</p>
+        </content>
+      </clause>
+      <clause eId="cl_51" GUID="C74F8001-8708-41C7-9479-B277535A7BDD">
+        <num>51.</num>
+        <content>
+          <p>Et statim post pacis reformacionem amovebimus de regno omnes alienigenas milites, balistarios, servientes, stipendiarios, qui venerint cum equis et armis ad nocumentum regni.</p>
+        </content>
+      </clause>
+      <clause eId="cl_52" GUID="45BD7195-9F3C-4F63-8AD8-B26A80FE3CB9">
+        <num>52.</num>
+        <content>
+          <p>Si quis fuerit disseisitus vel elongatus per nos sine legali judicio parium suorum, de terris, castellis, libertatibus, vel jure suo, statim ea ei restituemus; et si contencio super hoc orta fuerit, tunc inde fiat per judicium viginti quinque baronum, de quibus fit mencio inferius in securitate pacis: de omnibus autem illis de quibus aliquis disseisitus fuerit vel elongatus sine legali judicio parium suorum, per Henricum regem patrem nostrum vel per Ricardum regem fratrem nostrum, que in manu nostra habemus, vel que alii tenent que nos oporteat warantizare, respectum habebimus usque ad communem terminum crucesignatorum; exceptis illis de quibus placitum motum fuit vel inquisicio facta per preceptum nostrum, ante suscepcionem crucis nostre: cum autem redierimus de peregrinacione nostra, vel si forte remanserimus a peregrinacione nostra, statim inde plenam justiciam exhibebimus.</p>
+        </content>
+      </clause>
+      <clause eId="cl_53" GUID="1AF7D650-796C-48AB-B9FE-1E1F5C7C6E8F">
+        <num>53.</num>
+        <content>
+          <p>Eundem autem respectum habebimus, et eodem modo, de justicia exhibenda de forestis deafforestandis vel remansuris forestis, quas Henricus pater noster vel Ricardus frater noster afforestaverunt, et de custodiis terrarum que sunt de alieno feodo, cujusmodi custodias hucusque habuimus occasione feodi quod aliquis de nobis tenuit per servicium militare, et de abbaciis que fundate fuerint in feodo alterius quam nostro, in quibus dominus feodi dixerit se jus habere; et cum redierimus, vel si remanserimus a peregrinacione nostra, super hiis conquerentibus plenam justiciam statim exhibebimus.</p>
+        </content>
+      </clause>
+      <clause eId="cl_54" GUID="3FA0DFF0-5215-4964-982F-D3D3927E869B">
+        <num>54.</num>
+        <content>
+          <p>Nullus capiatur nec imprisonetur propter appellum femine de morte alterius quam viri sui.</p>
+        </content>
+      </clause>
+      <clause eId="cl_55" GUID="F7F7E51E-77F6-4C1D-91F5-CC0DA87E5E63">
+        <num>55.</num>
+        <content>
+          <p>Omnes fines qui injuste et contra legem terre facti sunt nobiscum, et omnia amerciamenta facta injuste et contra legem terre, omnino condonentur, vel fiat inde per judicium viginti quinque baronum de quibus fit mencio inferius in securitate pacis, vel per judicium majoris partis eorundem, una cum predicto Stephano Cantuariensi archiepiscopo, si interesse poterit, et aliis quos secum ad hoc vocare voluerit: et si interesse non poterit, nichilominus procedat negocium sine eo, ita quod, si aliquis vel aliqui de predictis viginti quinque baronibus fuerint in simili querela, amoveantur quantum ad hoc judicium, et alii loco eorum per residuos de eisdem viginti quinque, tantum ad hoc faciendum electi et jurati substituantur.</p>
+        </content>
+      </clause>
+      <clause eId="cl_56" GUID="9B51E003-C414-4FEF-B579-45DB1744DEAB">
+        <num>56.</num>
+        <content>
+          <p>Si nos disseisivimus vel elongavimus Walenses de terris vel libertatibus vel rebus aliis, sine legali judicio parium suorum, in Anglia vel in Wallia, eis statim reddantur; et si contencio super hoc orta fuerit, tunc inde fiat in marchia per judicium parium suorum, de tenementis Anglie secundum legem Anglie, de tenementis Wallie secundum legem Wallie, de tenementis marchie secundum legem marchie. Idem facient Walenses nobis et nostris.</p>
+        </content>
+      </clause>
+      <clause eId="cl_57" GUID="A4923168-EA5C-42EC-959C-686259DC3117">
+        <num>57.</num>
+        <content>
+          <p>De omnibus autem illis de quibus aliquis Walensium disseisitus fuerit vel elongatus sine legali judicio parium suorum per Henricum regem patrem nostrum vel Ricardum regem fratrem nostrum, que nos in manu nostra habemus, vel que alii tenent que nos oporteat warantizare, respectum habebimus usque ad communem terminum crucesignatorum, illis exceptis de quibus placitum motum fuit vel inquisicio facta per preceptum nostrum ante suscepcionem crucis nostre: cum autem redierimus, vel si forte remanserimus a peregrinacione nostra, statim eis inde plenam justiciam exhibebimus, secundum leges Walensium et partes predictas.</p>
+        </content>
+      </clause>
+      <clause eId="cl_58" GUID="C6ED7E6B-446C-4D57-9682-9278AF7E0502">
+        <num>58.</num>
+        <content>
+          <p>Nos reddemus filium Lewelini statim, et omnes obsides de Wallia, et cartas que nobis liberate fuerunt in securitatem pacis.</p>
+        </content>
+      </clause>
+      <clause eId="cl_59" GUID="A8BC80C8-176A-4A84-8521-E469404A8CF4">
+        <num>59.</num>
+        <content>
+          <p>Nos faciemus Alexandro regi Scottorum de sororibus suis, et obsidibus reddendis, et libertatibus suis, et jure suo, secundum formam in qua faciemus aliis baronibus nostris Anglie, nisi aliter esse debeat per cartas quas habemus de Willelmo patre ipsius, quondam rege Scottorum; et hoc erit per judicium parium suorum in curia nostra.</p>
+        </content>
+      </clause>
+      <clause eId="cl_60" GUID="EF821FBD-6DA5-4FE5-98CE-F810ED64B86C">
+        <num>60.</num>
+        <content>
+          <p>Omnes autem istas consuetudines predictas et libertates quas nos concessimus in regno nostro tenendas quantum ad nos pertinet erga nostros, omnes de regno nostro, tam clerici quam laici, observent quantum ad se pertinet erga suos.</p>
+        </content>
+      </clause>
+      <clause eId="cl_61" GUID="6238849B-D783-4AD4-A0E2-E5CE34485C02">
+        <num>61.</num>
+        <content>
+          <p>Cum autem pro Deo, et ad emendacionem regni nostri, et ad melius sopiendam discordiam inter nos et barones nostros ortam, hec omnia predicta concesserimus, volentes ea integra et firma stabilitate in perpetuum gaudere, facimus et concedimus eis securitatem subscriptam; videlicet quod barones eligant viginti quinque barones de regno quos voluerint, qui debeant pro totis viribus suis observare, tenere, et facere observari, pacem et libertates quas eis concessimus, et hac presenti carta nostra confirmavimus, ita scilicet quod, si nos, vel justiciarius noster, vel ballivi nostri, vel aliquis de ministris nostris, in aliquo erga aliquem deliquerimus, vel aliquem articulorum pacis aut securitatis transgressi fuerimus, et delictum ostensum fuerit quatuor baronibus de predictis viginti quinque baronibus, illi quatuor barones accedant ad nos vel ad justiciarum nostrum, si fuerimus extra regnum, proponentes nobis excessum, petent ut excessum illum sine dilacione faciamus emendari. Et si nos excessum non emendaverimus, vel, si fuerimus extra regnum justiciarius noster non emendaverit, infra tempus quadraginta dierum computandum a tempore quo monstratum fuerit nobis vel justiciario nostro si extra regnum fuerimus, predicti quatuor barones referant causam illam ad residuos de viginti quinque baronibus, et illi viginti quinque barones cum communa tocius terre distringent et gravabunt nos modis omnibus quibus poterunt, scilicet per capcionem castrorum, terrarum, possessionum, et aliis modis quibus poterunt, donec fuerit emendatum secundum arbitrium eorum, salva persona nostra et regine nostre et liberorum nostrorum; et cum fuerit emendatum intendent nobis sicut prius fecerunt. Et quicumque voluerit de terra juret quod ad predicta omnia exequenda parebit mandatis predictorum viginti quinque baronum, et quod gravabit nos pro posse suo cum ipsis, et nos publice et libere damus licenciam jurandi cuilibet qui jurare voluerit, et nulli umquam jurare prohibebimus. Omnes autem illos de terra qui per se et sponte sua noluerint jurare viginti quinque baronibus, de distringendo et gravando nos cum eis, faciemus jurare eosdem de mandato nostro, sicut predictum est. Et si aliquis de viginti quinque baronibus decesserit, vel a terra recesserit, vel aliquo alio modo impeditus fuerit, quominus ista predicta possent exequi, qui residui fuerint de predictis viginti quinque baronibus eligant alium loco ipsius, pro arbitrio suo, qui simili modo erit juratus quo et ceteri. In omnibus autem que istis viginti quinque baronibus committuntur exequenda, si forte ipsi viginti quinque presentes fuerint, et inter se super re aliqua discordaverint, vel aliqui ex eis summoniti nolint vel nequeant interesse, ratum habeatur et firmum quod major pars eorum qui presentes fuerint providerit, vel preceperit, ac si omnes viginti quinque in hoc consensissent; et predicti viginti quinque jurent quod omnia antedicta fideliter observabunt, et pro toto posse suo facient observari. Et nos nichil impetrabimus ab aliquo, per nos nec per alium, per quod aliqua istarum concessionum et libertatum revocetur vel minuatur; et, si aliquid tale impetratum fuerit, irritum sit et inane et numquam eo utemur per nos nec per alium.</p>
+        </content>
+      </clause>
+      <clause eId="cl_62" GUID="0AD67519-8BCC-422D-99E1-A8A560285311">
+        <num>62.</num>
+        <content>
+          <p>Et omnes malas voluntates, indignaciones, et rancores ortos inter nos et homines nostros, clericos et laicos, a tempore discordie, plene omnibus remisimus et condonavimus. Preterea omnes transgressiones factas occasione ejusdem discordie, a Pascha anno regni nostri sextodecimo usque ad pacem reformatam, plene remisimus omnibus, clericis et laicis, et quantum ad nos pertinet plene condonavimus. Et insuper fecimus eis fieri litteras testimoniales patentes domini Stephani Cantuariensis archiepiscopi, domini Henrici Dublinensis archiepiscopi, et episcoporum predictorum, et magistri Pandulfi, super securitate ista et concessionibus prefatis.</p>
+        </content>
+      </clause>
+      <clause eId="cl_63" GUID="7E6C2FA2-C3C3-46E4-AEA3-D54B93740CC9">
+        <num>63.</num>
+        <content>
+          <p>Quare volumus et firmiter precipimus quod Anglicana ecclesia libera sit et quod homines in regno nostro habeant et teneant omnes prefatas libertates, jura, et concessiones, bene et in pace, libere et quiete, plene et integre sibi et heredibus suis, de nobis et heredibus nostris, in omnibus rebus et locis, in perpetuum, sicut predictum est. Juratum est autem tam ex parte nostra quam ex parte baronum, quod hec omnia supradicta bona fide et sine malo ingenio observabuntur. Testibus supradictis et multis aliis. Data per manum nostram in prato quod vocatur <location refersTo="#loc_runnymede">Ronimede</location>, inter Windlesoram et Stanes, <date date="1215-06-15">quinto decimo die Junii</date>, anno regni nostri decimo septimo.</p>
+        </content>
+      </clause>
+    </body>
+    <attachments>
+      <attachment eId="att_english" GUID="F15E2BE0-CC3A-4BFF-9EF0-B131A1F36D76">
+        <heading>English translation</heading>
+        <doc name="translation" contains="originalVersion">
+          <meta>
+      <identification source="#gvergottini_en">
+        <FRBRWork>
+          <FRBRthis value="/akn/gb-eng/act/1215-06-15/magna-carta/!main"/>
+          <FRBRuri value="/akn/gb-eng/act/1215-06-15/magna-carta"/>
+          <FRBRalias value="Magna Carta" name="short"/>
+          <FRBRdate date="1215-06-15" name="grant"/>
+          <FRBRauthor href="#kingJohn_en" as="#author_en"/>
+          <FRBRcountry value="gb-eng"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/gb-eng/act/1215-06-15/magna-carta/eng@1914-01-01/!main"/>
+          <FRBRuri value="/akn/gb-eng/act/1215-06-15/magna-carta/eng@1914-01-01"/>
+          <FRBRdate date="1914-01-01" name="translation"/>
+          <FRBRauthor href="#mckechnie_en" as="#author_en"/>
+          <FRBRlanguage language="eng"/>
+          <FRBRtranslation href="/akn/gb-eng/act/1215-06-15/magna-carta/lat@1215-06-15" fromLanguage="lat" by="#mckechnie_en"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/gb-eng/act/1215-06-15/magna-carta/eng@1914-01-01/!main.xml"/>
+          <FRBRuri value="/akn/gb-eng/act/1215-06-15/magna-carta/eng@1914-01-01.xml"/>
+          <FRBRdate date="2026-11-02" name="markup"/>
+          <FRBRauthor href="#gvergottini_en" as="#editor_en"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#gvergottini_en">
+        <TLCPerson eId="kingJohn_en" href="/ontology/person/gb.kingJohn" showAs="John, King of England"/>
+        <TLCPerson eId="gvergottini_en" href="/ontology/person/us.grantVergottini" showAs="Grant Vergottini"/>
+        <TLCPerson eId="mckechnie_en" href="/ontology/person/gb.williamSharpMcKechnie" showAs="William Sharp McKechnie"/>
+        <TLCRole eId="author_en" href="/ontology/role/author" showAs="Author"/>
+        <TLCRole eId="editor_en" href="/ontology/role/editor" showAs="Editor"/>
+        <TLCLocation eId="loc_runnymede_en" href="/ontology/location/gb.runnymede" showAs="Runnymede"/>
+      </references>
+          </meta>
+          <preamble>
+            <container name="address" eId="att_english__address" GUID="85084BDF-013F-4709-B2E5-88F4D20BE7FC">
+              <p>John, by the grace of God, king of England, lord of Ireland, duke of Normandy and Aquitaine, and count of Anjou, to the archbishops, bishops, abbots, earls, barons, justiciars, foresters, sheriffs, stewards, servants, and to all his bailiffs and liege subjects, greeting.</p>
+            </container>
+            <container name="grant" eId="att_english__grant" GUID="B3434EEA-AAB3-411F-A3B8-F77519BD268C">
+              <p>Know that, looking to God and for the salvation of our soul, and those of all our ancestors and heirs, and unto the honour of God and the advancement of holy Church, and for the reform of our realm, [we have granted as underwritten] by advice of our venerable fathers, Stephen, archbishop of Canterbury, primate of all England and cardinal of the holy Roman Church, Henry archbishop of Dublin, William of London, Peter of Winchester, Jocelyn of Bath and Glastonbury, Hugh of Lincoln, Walter of Worcester, William of Coventry, Benedict of Rochester, bishops; of master Pandulf, subdeacon and member of the household of our lord the Pope, of brother Aymeric (master of the Knights of the Temple in England), and of the illustrious men, William Marshall, earl of Pembroke, William, earl of Salisbury, William, earl Warenne, William, earl of Arundel, Alan of Galloway, (constable of Scotland), Waren Fitz Gerald, Peter Fitz Herbert, Hubert de Burgh (seneschal of Poitou), Hugh de Neville, Matthew Fitz Herbert, Thomas Basset, Alan Basset, Philip of Albini, Robert of Ropesle, John Marshall, John Fitz Hugh, and others, our liegemen.</p>
+            </container>
+          </preamble>
+          <mainBody>
+            <clause eId="att_english__cl_1" GUID="92B73B68-ED55-4C23-A25C-708BECE5831D">
+              <num>1.</num>
+              <content>
+                <p>In the first place we have granted to God, and by this our present charter confirmed for us and our heirs for ever that the English church shall be free, and shall have her rights entire, and her liberties inviolate; and we will that it be thus observed; which is apparent from this that the freedom of elections, which is reckoned most important and very essential to the English church, we, of our pure and unconstrained will, did grant, and did by our charter confirm and did obtain the ratification of the same from our lord, Pope Innocent III., before the quarrel arose between us and our barons, and this we will observe, and our will is that it be observed in good faith by our heirs for ever. We have also granted to all freemen of our kingdom, for us and our heirs forever, all the underwritten liberties, to be had and held by them and their heirs, of us and our heirs forever.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_2" GUID="2EC6DFD2-405A-4708-A7D2-7DA5C8748C8F">
+              <num>2.</num>
+              <content>
+                <p>If any of our earls or barons, or others holding of us in chief by military service shall have died, and at the time of his death his heir shall be of full age and owe “relief,” he shall have his inheritance on payment of the ancient relief, namely the heir or heirs of an earl, £100 for a whole earl’s barony; the heir or heirs of a baron, £100 for a whole barony; the heir or heirs of a knight, 100s. at most for a whole knight’s fee; and whoever owes less let him give less, according to the ancient custom of fiefs.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_3" GUID="636C3E8D-84B6-4CE4-8B38-F08B07AEA3D2">
+              <num>3.</num>
+              <content>
+                <p>If, however, the heir of any one of the aforesaid has been under age and in wardship, let him have his inheritance without relief and without fine when he comes of age.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_4" GUID="B1F75984-FA03-478C-94AB-084EA638D885">
+              <num>4.</num>
+              <content>
+                <p>The guardian of the land of an heir who is thus under age, shall take from the land of the heir nothing but reasonable produce, reasonable customs, and reasonable services, and that without destruction or waste of men or goods; and if we have committed the wardship of the lands of any such minor to the sheriff, or to any other who is responsible to us for its issues, and he has made destruction or waste of what he holds in wardship, we will take of him amends, and the land shall be committed to two lawful and discreet men of that fee, who shall be responsible to us for the issues, or to him to whom we shall assign them; and if we have given or sold the wardship of any such land to someone and he has therein made destruction or waste, he shall lose that wardship, and it shall be transferred to two lawful and discreet men of that fief, who shall be responsible to us in like manner as aforesaid.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_5" GUID="AEBF5339-DE94-4BDA-83A6-80D78C8BF53E">
+              <num>5.</num>
+              <content>
+                <p>The guardian, moreover, so long as he has the wardship of the land, shall keep up the houses, parks, places for live-stock, fishponds, mills, and other things pertaining to the land, out of the issues of the same land; and he shall restore to the heir, when he has come to full age, all his land, stocked with ploughs and implements of husbandry, according as the season of husbandry shall require, and the issues of the land can reasonably bear.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_6" GUID="9E1C2386-3504-4946-AF37-2CF11CFCA759">
+              <num>6.</num>
+              <content>
+                <p>Heirs shall be married without disparagement, yet so that before the marriage takes place the nearest in blood to that heir shall have notice.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_7" GUID="0F27F685-B127-45E3-A6B1-AF63DF2A4A69">
+              <num>7.</num>
+              <content>
+                <p>A widow, after the death of her husband, shall forthwith and without difficulty have her marriage portion and inheritance; nor shall she give anything for her dower, or for her marriage portion, or for the inheritance which her husband and she held on the day of the death of that husband; and she may remain in the house of her husband for forty days after his death, within which time her dower shall be assigned to her.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_8" GUID="6EFB6C24-2236-4BB7-80D0-C134EB227EBC">
+              <num>8.</num>
+              <content>
+                <p>Let no widow be compelled to marry, so long as she prefers to live without a husband; provided always that she gives security not to marry without our consent, if she holds of us, or without the consent of the lord of whom she holds, if she holds of another.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_9" GUID="AEA8B828-A711-4538-9D79-9B6F782F42A8">
+              <num>9.</num>
+              <content>
+                <p>Neither we nor our bailiffs shall seize any land or rent for any debt, so long as the chattels of the debtor are sufficient to repay the debt; nor shall the sureties of the debtor be distrained so long as the principal debtor is able to satisfy the debt; and if the principal debtor shall fail to pay the debt, having nothing wherewith to pay it, then the sureties shall answer for the debt; and let them have the lands and rents of the debtor, if they desire them, until they are indemnified for the debt which they have paid for him, unless the principal debtor can show proof that he is discharged thereof as against the said sureties.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_10" GUID="8E8648C2-7092-4D92-81CD-46812EBCB2FD">
+              <num>10.</num>
+              <content>
+                <p>If one who has borrowed from the Jews any sum, great or small, die before that loan be repaid, the debt shall not bear interest while the heir is under age, of whomsoever he may hold; and if the debt fall into our hands, we will not take anything except the principal sum contained in the bond.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_11" GUID="72E420D3-1988-4ED3-B93E-0C9BAA868BB2">
+              <num>11.</num>
+              <content>
+                <p>And if anyone die indebted to the Jews, his wife shall have her dower and pay nothing of that debt; and if any children of the deceased are left under age, necessaries shall be provided for them in keeping with the holding of the deceased; and out of the residue the debt shall be paid, reserving, however, service due to feudal lords; in like manner let it be done touching debts due to others than Jews.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_12" GUID="D698D488-77D1-4CE8-A94F-71B4376D5354">
+              <num>12.</num>
+              <content>
+                <p>No scutage nor aid shall be imposed in our kingdom, unless by common counsel of our kingdom, except for ransoming our person, for making our eldest son a knight, and for once marrying our eldest daughter; and for these there shall not be levied more than a reasonable aid. In like manner it shall be done concerning aids from the citizens of London.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_13" GUID="9E32E111-4109-4195-B615-6CCCC49E4684">
+              <num>13.</num>
+              <content>
+                <p>And the citizens of London shall have all their ancient liberties and free customs, as well by land as by water; furthermore, we decree and grant that all other cities, boroughs, towns, and ports shall have all their liberties and free customs.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_14" GUID="AA2C0A39-F8B5-4932-9823-78E47D44216D">
+              <num>14.</num>
+              <content>
+                <p>And for obtaining the common counsel of the kingdom anent the assessing of an aid (except in the three cases aforesaid) or of a scutage, we will cause to be summoned the archbishops, bishops, abbots, earls, and greater barons, by our letters under seal; and we will moreover cause to be summoned generally, through our sheriffs and bailiffs, all others who hold of us in chief, for a fixed date, namely, after the expiry of at least forty days, and at a fixed place; and in all letters of such summons we will specify the reason of the summons. And when the summons has thus been made, the business shall proceed on the day appointed, according to the counsel of such as are present, although not all who were summoned have come.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_15" GUID="9E1B5F8E-1CA6-4E0E-A5AD-119375759158">
+              <num>15.</num>
+              <content>
+                <p>We will not for the future grant to any one licence to take an aid from his own free tenants, except to ransom his body, to make his eldest son a knight, and once to marry his eldest daughter; and on each of these occasions there shall be levied only a reasonable aid.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_16" GUID="672976E4-E5C4-4970-9939-032A12AF974E">
+              <num>16.</num>
+              <content>
+                <p>No one shall be compelled to perform greater service for a knight’s fee, or for any other free tenement, than is due therefrom.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_17" GUID="B353C420-F39E-47CA-9AC4-4E3AF5568122">
+              <num>17.</num>
+              <content>
+                <p>Common pleas shall not follow our court, but shall be held in some fixed place.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_18" GUID="ADE46995-FA06-4D24-93A7-1824545D5E99">
+              <num>18.</num>
+              <content>
+                <p>Inquests of novel disseisin, of mort d’ancestor, and of darrein presentment, shall not be held elsewhere than in their own county-courts, and that in manner following,—We, or, if we should be out of the realm, our chief justiciar, will send two justiciars through every county four times a year, who shall, along with four knights of the county chosen by the county, hold the said assizes in the county court, on the day and in the place of meeting of that court.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_19" GUID="73F7572D-EDA3-4E66-B885-56AA49B8CCAE">
+              <num>19.</num>
+              <content>
+                <p>And if any of the said assizes cannot be taken on the day of the county court, let there remain of the knights and freeholders who were present at the county court on that day, as many as may be required for the efficient making of judgments, according as the business be more or less.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_20" GUID="37B8A215-0D7E-48A0-8237-6E86E10E13A6">
+              <num>20.</num>
+              <content>
+                <p>A freeman shall not be amerced for a small offence, except in accordance with the degree of the offence; and for a grave offence he shall be amerced in accordance with the gravity of his offence, yet saving always his “contenement”; and a merchant in the same way, saving his wares; and a villein shall be amerced in the same way, saving his wainage—if they have fallen into our mercy: and none of the aforesaid amercements shall be imposed except by the oath of honest men of the neighbourhood.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_21" GUID="0E7C35F9-B443-42AA-81A8-5E0A065D0B11">
+              <num>21.</num>
+              <content>
+                <p>Earls and barons shall not be amerced except through their peers, and only in accordance with the degree of the offence.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_22" GUID="3C4652D3-B092-4FC2-BBDC-7EB87A97DBDA">
+              <num>22.</num>
+              <content>
+                <p>A clerk shall not be amerced in respect of his lay holding except after the manner of the others aforesaid; further, he shall not be amerced in accordance with the extent of his church benefice.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_23" GUID="CA944FC6-A2BA-4DEC-BAC5-D4E435A1D05F">
+              <num>23.</num>
+              <content>
+                <p>No community or individual shall be compelled to make bridges at river banks, except those who from of old were legally bound to do so.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_24" GUID="55ACD3A0-DB0B-4534-A5EC-DEE73294111C">
+              <num>24.</num>
+              <content>
+                <p>No sheriff, constable, coroners, or others of our bailiffs, shall hold pleas of our Crown.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_25" GUID="581EC6DF-67DA-4C8A-8833-9EA3D1E2DB35">
+              <num>25.</num>
+              <content>
+                <p>All counties, hundreds, wapentakes, and trithings (except our demesne manors) shall remain at the old rents, and without any additional payment.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_26" GUID="C5507BB2-6911-4FC5-BDCF-0D9D48524E5C">
+              <num>26.</num>
+              <content>
+                <p>If any one holding of us a lay fief shall die, and our sheriff or bailiff shall exhibit our letters patent of summons for a debt which the deceased owed to us, it shall be lawful for our sheriff or bailiff to attach and catalogue chattels of the deceased, found upon the lay fief, to the value of that debt, at the sight of lawful men, provided always that nothing whatever be thence removed until the debt which is evident shall be fully paid to us; and the residue shall be left to the executors to fulfil the will of the deceased; and if there be nothing due from him to us, all the chattels shall go to the deceased, saving to his wife and children their reasonable shares.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_27" GUID="A33B510C-4CE0-4F3E-9C67-9E99EF16850A">
+              <num>27.</num>
+              <content>
+                <p>If any freeman shall die intestate, his chattels shall be distributed by the hands of his nearest kinsfolk and friends, under the supervision of the church, saving to every one the debts which the deceased owed to him.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_28" GUID="E59A6AD0-793D-4028-953C-C5A54DE321FF">
+              <num>28.</num>
+              <content>
+                <p>No constable or other bailiff of ours shall take corn or other provisions from any one without immediately tendering money therefor, unless he can have postponement thereof by permission of the seller.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_29" GUID="0CCB13EA-DDAB-44C8-B2CD-AC17BE05DDCD">
+              <num>29.</num>
+              <content>
+                <p>No constable shall compel any knight to give money in lieu of castle-guard, when he is willing to perform it in his own person, or (if he himself cannot do it from any reasonable cause) then by another responsible man. Further, if we have led or sent him upon military service, he shall be relieved from guard in proportion to the time during which he has been on service because of us.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_30" GUID="78478F61-CDB1-4E28-AD52-045DCCE0A112">
+              <num>30.</num>
+              <content>
+                <p>No sheriff or bailiff of ours, or any other person, shall take the horses or carts of any freeman for transport duty, against the will of the said freeman.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_31" GUID="9B7673B2-DDBD-4DD5-B2E5-6B2310ADB81D">
+              <num>31.</num>
+              <content>
+                <p>Neither we nor our bailiffs shall take, for our castles or for any other work of ours, wood which is not ours, against the will of the owner of that wood.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_32" GUID="35B2AF42-72DD-463E-9DDA-5EADEF5B1399">
+              <num>32.</num>
+              <content>
+                <p>We will not retain beyond one year and one day, the lands of those who have been convicted of felony, and the lands shall thereafter be handed over to the lords of the fiefs.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_33" GUID="A90EFE26-4417-4B1E-BA70-A5391CDAB755">
+              <num>33.</num>
+              <content>
+                <p>All kydells for the future shall be removed altogether from Thames and Medway, and throughout all England, except upon the sea coast.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_34" GUID="DAB20F16-6FF5-47AB-BF51-93AB44C6479B">
+              <num>34.</num>
+              <content>
+                <p>The writ which is called praecipe shall not for the future be issued to anyone, concerning any tenement whereby a freeman may lose his court.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_35" GUID="9E58C290-4991-4419-9992-708C15B80496">
+              <num>35.</num>
+              <content>
+                <p>Let there be one measure of wine throughout our whole realm; and one measure of ale; and one measure of corn, to wit, “the London quarter”; and one width of cloth (whether dyed, or russet, or halberget), to wit, two ells within the selvedges; of weights also let it be as of measures.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_36" GUID="D94EFA65-5346-4F89-B1AF-BE9E559A63F8">
+              <num>36.</num>
+              <content>
+                <p>Nothing in future shall be given or taken for a writ of inquisition of life or limbs, but freely it shall be granted, and never denied.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_37" GUID="8B65CDF3-B47A-41FC-A30F-2A7EEC4E7261">
+              <num>37.</num>
+              <content>
+                <p>If anyone holds of us by fee-farm, by socage, or by burgage, and holds also land of another lord by knight’s service, we will not (by reason of that fee-farm, socage, or burgage,) have the wardship of the heir, or of such land of his as is of the fief of that other; nor shall we have wardship of that fee-farm, socage, or burgage, unless such fee-farm owes knight’s service. We will not by reason of any petty serjeanty which anyone may hold of us by the service of rendering to us knives, arrows, or the like, have wardship of his heir or of the land which he holds of another lord by knight’s service.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_38" GUID="17147730-5A6E-40D3-8C97-221A5D83D59E">
+              <num>38.</num>
+              <content>
+                <p>No bailiff for the future shall put any man to his “law” upon his own mere word of mouth, without credible witnesses brought for this purpose.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_39" GUID="C84967EF-E105-4839-81DD-4ED6EF1723D1">
+              <num>39.</num>
+              <content>
+                <p>No freeman shall be arrested, or detained in prison, or deprived of his freehold, or outlawed, or banished, or in any way molested; and we will not set forth against him, nor send against him, unless by the lawful judgment of his peers and by the law of the land.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_40" GUID="6F79C4C8-846C-42A7-A915-21CEEEE19A27">
+              <num>40.</num>
+              <content>
+                <p>To no one will we sell, to no one will we refuse or delay, right or justice.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_41" GUID="87FD81E7-5D7D-4F73-A51B-DE202A2EEBE5">
+              <num>41.</num>
+              <content>
+                <p>All merchants shall have safe and secure exit from England, and entry to England, with the right to tarry there and to move about as well by land as by water, for buying and selling by the ancient and right customs, quit from all evil tolls, except (in time of war) such merchants as are of the land at war with us. And if such are found in our land at the beginning of the war, they shall be detained, without injury to their bodies or goods, until information be received by us, or by our chief justiciar, how the merchants of our land found in the land at war with us are treated; and if our men are safe there, the others shall be safe in our land.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_42" GUID="161EEEEE-7137-4836-9D6E-47EF8061DE9A">
+              <num>42.</num>
+              <content>
+                <p>It shall be lawful in future for any one (excepting always those imprisoned or outlawed in accordance with the law of the kingdom, and natives of any country at war with us, and merchants, who shall be treated as is above provided) to leave our kingdom and to return, safe and secure by land and water, except for a short period in time of war, on grounds of public policy—reserving always the allegiance due to us.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_43" GUID="5907505E-A7B8-4F12-8D4E-06C746FE9AE4">
+              <num>43.</num>
+              <content>
+                <p>If one who holds of some escheat (such as the honour of Wallingford, of Nottingham, of Boulogne, of Lancaster, or of other escheats which are in our hands and are baronies) shall die, his heir shall give no other relief, and perform no other service to us than he would have done to the baron, if that barony had been in the baron’s hand; and we shall hold it in the same manner in which the baron held it.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_44" GUID="5E2E7BAE-35B2-4D25-84A0-BB7906B31AAE">
+              <num>44.</num>
+              <content>
+                <p>Men who dwell without the forest need not henceforth come before our justiciars of the forest upon a general summons, except those who are impleaded, or who have become sureties for any person or persons attached for forest offences.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_45" GUID="FCBB4732-557A-4917-AFF3-6D87846D7373">
+              <num>45.</num>
+              <content>
+                <p>We will appoint as justices, constables, sheriffs, or bailiffs only such as know the law of the realm and mean to observe it well.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_46" GUID="A8A99228-6AD6-4A08-8C73-9CECFC94711E">
+              <num>46.</num>
+              <content>
+                <p>All barons who have founded abbeys, concerning which they hold charters from the kings of England, or of which they have long-continued possession, shall have the wardship of them, when vacant, as they ought to have.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_47" GUID="6F51B05E-272A-4E01-B7E3-B0C01B775B7F">
+              <num>47.</num>
+              <content>
+                <p>All forests that have been made such in our time shall forthwith be disafforested; and a similar course shall be followed with regard to river-banks that have been placed “in defence” by us in our time.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_48" GUID="E84E4E8B-FAA8-4C3C-A448-6BE4AA48CBFD">
+              <num>48.</num>
+              <content>
+                <p>All evil customs connected with forests and warrens, foresters and warreners, sheriffs and their officers, river-banks and their wardens, shall immediately be inquired into in each county by twelve sworn knights of the same county chosen by the honest men of the same county, and shall, within forty days of the said inquest, be utterly abolished, so as never to be restored, provided always that we previously have intimation thereof, or our justiciar, if we should not be in England.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_49" GUID="19A424C9-15CE-4F93-BC40-DFC11B8428DF">
+              <num>49.</num>
+              <content>
+                <p>We will immediately restore all hostages and charters delivered to us by Englishmen, as sureties of the peace or of faithful service.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_50" GUID="12ED55DA-C0AD-4A54-AF00-F81207FEAFF3">
+              <num>50.</num>
+              <content>
+                <p>We will entirely remove from their bailiwicks, the relations of Gerard de Athyes (so that in future they shall have no bailiwick in England), namely Engelard de Cygony, Peter, Gyon, and Andrew of the Chancery, Gyon de Cygony, Geoffrey de Martyn with his brothers, Philip Mark with his brothers and his nephew Geoffrey, and the whole brood of the same.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_51" GUID="73762B6F-9B70-48C6-8273-41E5B5BCFB96">
+              <num>51.</num>
+              <content>
+                <p>As soon as peace is restored, we will banish from the kingdom all foreign-born knights, cross-bowmen, serjeants, and mercenary soldiers, who have come with horses and arms to the kingdom’s hurt.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_52" GUID="3B32E908-2C48-48BC-85E7-D2A60D099CAA">
+              <num>52.</num>
+              <content>
+                <p>If any one has been dispossessed or removed by us, without the legal judgment of his peers, from his lands, castles, franchises, or from his right, we will immediately restore them to him; and if a dispute arise over this, then let it be decided by the five-and-twenty barons of whom mention is made below in the clause for securing the peace. Moreover, for all those possessions, from which any one has, without the lawful judgment of his peers, been disseised or removed, by our father, King Henry, or by our brother, King Richard, and which we retain in our hand (or which are possessed by others, to whom we are bound to warrant them) we shall have respite until the usual term of crusaders; excepting those things about which a plea has been raised, or an inquest made by our order, before our taking of the cross; but as soon as we return from our expedition (or if perchance we desist from the expedition) we will immediately grant full justice therein.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_53" GUID="E9B223E5-88E8-473C-B5B8-9C86FEA6F0BF">
+              <num>53.</num>
+              <content>
+                <p>We shall have, moreover, the same respite and in the same manner in rendering justice concerning the disafforestation or retention of those forests which Henry our father and Richard our brother afforested, and concerning the wardship of lands which are of the fief of another (namely, such wardships as we have hitherto had by reason of a fief which anyone held of us by knight’s service), and concerning abbeys founded on other fiefs than our own, in which the lord of the fee claims to have right; and when we have returned, or if we desist from our expedition, we will immediately grant full justice to all who complain of such things.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_54" GUID="6AC0A675-5BDF-4AD1-B8B6-BC37209B6263">
+              <num>54.</num>
+              <content>
+                <p>No one shall be arrested or imprisoned upon the appeal of a woman, for the death of any other than her husband.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_55" GUID="648E7BFD-4BE1-4F19-8955-9422E2BCBF83">
+              <num>55.</num>
+              <content>
+                <p>All fines made with us unjustly and against the law of the land, and all amercements imposed unjustly and against the law of the land, shall be entirely remitted, or else it shall be done concerning them according to the decision of the five-and-twenty barons of whom mention is made below in the clause for securing the peace, or according to the judgment of the majority of the same, along with the aforesaid Stephen, archbishop of Canterbury, if he can be present, and such others as he may wish to bring with him for this purpose, and if he cannot be present the business shall nevertheless proceed without him, provided always that if any one or more of the aforesaid five-and-twenty barons are in a similar suit, they shall be removed as far as concerns this particular judgment, others being substituted in their places after having been selected by the rest of the same five-and-twenty for this purpose only, and after having been sworn.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_56" GUID="B9483A53-9DC5-4D3B-9BB7-CC6E92AC08D5">
+              <num>56.</num>
+              <content>
+                <p>If we have disseised or removed Welshmen from lands or liberties, or other things, without the legal judgment of their peers in England or in Wales, they shall be immediately restored to them; and if a dispute arise over this, then let it be decided in the marches by the judgment of their peers; for tenements in England according to the law of England, for tenements in Wales according to the law of Wales, and for tenements in the marches according to the law of the marches. Welshmen shall do the same to us and ours.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_57" GUID="485DF245-F2D9-4079-97CA-8112273B436A">
+              <num>57.</num>
+              <content>
+                <p>Further, for all those possessions from which any Welshman has, without the lawful judgment of his peers, been disseised or removed by King Henry our father, or King Richard our brother, and which we retain in our hand (or which are possessed by others, to whom we are bound to warrant them) we shall have respite until the usual term of crusaders; excepting those things about which a plea has been raised or an inquest made by our order before we took the cross; but as soon as we return, (or if perchance we desist from our expedition), we will immediately grant full justice in accordance with the laws of the Welsh and in relation to the foresaid regions.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_58" GUID="39B4FAB3-DCDB-4CB5-B056-41ECC304319D">
+              <num>58.</num>
+              <content>
+                <p>We will immediately give up the son of Llywelyn and all the hostages of Wales, and the charters delivered to us as security for the peace.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_59" GUID="48CEC329-1E25-49CF-95E1-9929D6D449D7">
+              <num>59.</num>
+              <content>
+                <p>We will do toward Alexander, King of Scots, concerning the return of his sisters and his hostages, and concerning his franchises, and his right, in the same manner as we shall do towards our other barons of England, unless it ought to be otherwise according to the charters which we hold from William his father, formerly King of Scots; and this shall be according to the judgment of his peers in our court.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_60" GUID="0A31C7D3-85C8-436A-8989-B5DDDA7C5E61">
+              <num>60.</num>
+              <content>
+                <p>Moreover, all the aforesaid customs and liberties, the observance of which we have granted in our kingdom as far as pertains to us towards our men, shall be observed by all of our kingdom, as well clergy as laymen, as far as pertains to them towards their men.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_61" GUID="995E5FD7-4C22-452F-91E8-5CCBFD0C95E7">
+              <num>61.</num>
+              <content>
+                <p>Since, moreover, for God and the amendment of our kingdom, and for the better allaying of the quarrel that has arisen between us and our barons, we have granted all these concessions, desirous that they should enjoy them in complete and firm endurance for ever, we give and grant to them the underwritten security, namely, that the barons choose five-and-twenty barons of the kingdom, whomsoever they will, who shall be bound with all their might, to observe and hold, and cause to be observed, the peace and liberties we have granted and confirmed to them by this our present Charter, so that if we, or our justiciar, or our bailiffs or any one of our officers, shall in anything be at fault toward anyone, or shall have broken any one of the articles of the peace or of this security, and the offence be notified to four barons of the foresaid five-and-twenty, the said four barons shall repair to us (or our justiciar, if we are out of the realm) and, laying the transgression before us, petition to have that transgression corrected without delay. And if we shall not have corrected the transgression (or, in the event of our being out of the realm, if our justiciar shall not have corrected it) within forty days, reckoning from the time it has been intimated to us (or to our justiciar, if we should be out of the realm), the four barons aforesaid shall refer that matter to the rest of the five-and-twenty barons, and those five-and-twenty barons shall, together with the community of the whole land, distrain and distress us in all possible ways, namely, by seizing our castles, lands, possessions, and in any other way they can, until redress has been obtained as they deem fit, saving harmless our own person, and the persons of our queen and children; and when redress has been obtained, they shall resume their old relations towards us. And let whoever in the country desires it, swear to obey the orders of the said five-and twenty barons for the execution of all the aforesaid matters, and along with them, to molest us to the utmost of his power; and we publicly and freely grant leave to every one who wishes to swear, and we shall never forbid anyone to swear. All those, moreover, in the land who of themselves and of their own accord are unwilling to swear to the twenty-five to help them in constraining and molesting us, we shall by our command compel the same to swear to the effect foresaid. And if any one of the five-and-twenty barons shall have died or departed from the land, or be incapacitated in any other manner which would prevent the foresaid provisions being carried out, those of the said twenty-five barons who are left shall choose another in his place according to their own judgment, and he shall be sworn in the same way as the others. Further, in all matters the execution of which is entrusted to these twenty-five barons, if perchance these twenty-five are present and disagree about anything, or if some of them, after being summoned, are unwilling or unable to be present, that which the majority of those present ordain or command shall be held as fixed and established, exactly as if the whole twenty-five had concurred in this; and the said twenty-five shall swear that they will faithfully observe all that is aforesaid, and cause it to be observed with all their might. And we shall procure nothing from anyone, directly or indirectly, whereby any part of these concessions and liberties might be revoked or diminished; and if any such thing has been procured, let it be void and null, and we shall never use it personally or by another.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_62" GUID="453233E8-8216-41F8-902D-4918CFD865DA">
+              <num>62.</num>
+              <content>
+                <p>And all the ill-will, hatreds, and bitterness that have arisen between us and our men, clergy and lay, from the date of the quarrel, we have completely remitted and pardoned to everyone. Moreover, all trespasses occasioned by the said quarrel, from Easter in the sixteenth year of our reign till the restoration of peace, we have fully remitted to all, both clergy and laymen, and completely forgiven, as far as pertains to us. And, on this head, we have caused to be made out to them letters patent of Stephen, archbishop of Canterbury, Henry, archbishop of Dublin, the bishops aforesaid, and master Pandulf, as evidences of this clause of security and of the foresaid concessions.</p>
+              </content>
+            </clause>
+            <clause eId="att_english__cl_63" GUID="FA706B91-C477-462C-B77F-68CBA8210430">
+              <num>63.</num>
+              <content>
+                <p>Wherefore it is our will, and we firmly enjoin, that the English Church be free, and that the men in our kingdom have and hold all the aforesaid liberties, rights, and concessions, well and peaceably, freely and quietly, fully and wholly, for themselves and their heirs, of us and our heirs, in all respects and in all places for ever, as is aforesaid. An oath, moreover, has been taken, as well on our part as on the part of the barons, that all these conditions aforesaid shall be kept in good faith and without evil intent. Given under our hand—the above-named and many others being witnesses—in the meadow which is called <location refersTo="#loc_runnymede_en">Runnymede</location>, between Windsor and Staines, on <date date="1215-06-15">the fifteenth day of June</date>, in the seventeenth year of our reign.</p>
+              </content>
+            </clause>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </act>
+</akomaNtoso>
