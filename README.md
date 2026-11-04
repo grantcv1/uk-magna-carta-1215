@@ -31,3 +31,13 @@ The translation is McKechnie's, and it reflects his reading of the text. Modern 
 ## Fonts
 
 The stylesheet embeds Almendra, IM Fell English and UnifrakturCook, all licensed under the [SIL Open Font License](https://openfontlicense.org/). The rendering evokes a manuscript; it does not reproduce the handwriting or layout of any surviving copy.
+
+## License
+
+The Akoma Ntoso markup, stylesheet rules, scripts and landing page are under the MIT License in `LICENSE`. That license does not cover the items below, which keep their own terms.
+
+- **Text:** The Latin text and William Sharp McKechnie's English translation (1914), as transcribed by Project Gutenberg. Believed to be in the public domain. Details are under Sources above.
+- **Images:** A parchment texture. Its source is not recorded.
+- **Fonts:** Almendra, IM Fell English and UnifrakturCook, under the licenses in `FONT-LICENSES.md`.
+
+This is an unofficial copy, not an official version of the text.
